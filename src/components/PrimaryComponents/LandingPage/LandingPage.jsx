@@ -58,31 +58,16 @@ const [ref, inView] = useInView({
       <div className={styles.imgcontainer3} data-speed="0.5">
       <h1>Logo or text1</h1>
         {/* <img className={styles.img3}  src="https://res.cloudinary.com/ddectuilp/image/upload/v1693193757/removal.ai__83aaeb1e-00d8-4601-b6a3-8dc846bbfbcb-_37e4f2c6-f748-488c-aad7-7e906c867d3b_bx9eql.png" alt="" /> */}
-
       </div>
       <div className={styles.imgcontainer} data-speed="0.3">
-        <h1>img</h1>
-        {/* <img className={styles.img}  src="https://res.cloudinary.com/ddectuilp/image/upload/v1693260635/city_bs410u.png" alt="" /> */}
-
+      <video className={styles.video} autoPlay loop muted>
+    <source src="https://res.cloudinary.com/dvt1b6wh8/video/upload/v1700576275/Untitled_design_zh7dsu.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
       </div>
-
-
-      <div className={styles.imgcontainer2} data-speed="0.1">
-        <p>img2</p>
-        {/* <img className={styles.img2}  src="https://res.cloudinary.com/ddectuilp/image/upload/v1693262165/removal.ai__32f15991-85cd-4544-96e7-841ae0cacd87-_221c7bb4-0ced-4aca-a6f2-5d59441508b3_xemdoa.png" alt="" /> */}
-
-      </div>
-
-
-        <div className={styles.bannerTitle} data-speed="0.2">
-        <h4 className={styles.h4}>
-          TEXT1
-        </h4>
-        </div>
-
         <div className={styles.bannerTitle2} data-speed="0.2">
         <h4 className={styles.h4}>
-          TEXT2
+          Arte & detalhes
         </h4>
         </div>
 

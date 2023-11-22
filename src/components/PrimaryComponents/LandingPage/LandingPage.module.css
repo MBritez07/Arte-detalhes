@@ -1,8 +1,7 @@
 .LandingPage {
   display: flex;
   flex-direction: column;
-  margin-left: 4%;
-  margin-right: 4%;
+
 }
 
 /* Define the styles for the parallax banner and sections */
@@ -18,44 +17,46 @@
   justify-content: center;
   align-items: center;
 }
+.video {
+  width: 100vw; /* Cambia el ancho a 100vw (viewport width) */
+  height: 100vh; /* Mantén la altura como 100vh (viewport height) */
+  object-fit: cover; /* Esto asegurará que el video cubra toda la sección */
+}
+
 
 .imgcontainer {
   display: flex;
   position: absolute;
-  top:10%;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-.imgcontainer2 {
-  display: flex;
-  position: absolute;
-  top:40%;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.imgcontainer3 {
+
+.imgcontainer3 { /* Logo */
+
   display: flex;
   position: absolute;
   top:0%;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   width: 100%;
 }
 
-.h4{
-  font-size: 0.6em;
-  padding-left: 1%;
-  padding-right: 1%;
-
-}
-
+   .h4 {
+    font-family: 'Higuen Elegant Serif', serif !important;
+    font-size: 1.5em;
+    text-align: center;
+    color: #F6DAA2;
+  }
+  
 
 .img {
   width: 50%;
   height: 160%;
+    object-fit: cover; /* Esto asegurará que el video cubra toda la sección */
+  
 }
+
 .img2 {
   position: relative;
   padding-right: 2.2%;
@@ -64,33 +65,34 @@
 .img3 {
   width: 17%;
 }
-  
-  
+
   .bannerTitle {
     display: flex;
     position: absolute;
     bottom: 10%;
     align-items: center;
     justify-content: center;
-    width: 20%;
-    top:0%;
-    left: 0;
+    width: 100%;
+    top: 0%;
     font-size: 4vw;
+    
+   
   }
-
   
+   
   .bannerTitle2 {
     display: flex;
     position: absolute;
     bottom: 10%;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
-    width: 20%;
-    top:0%;
-    right: 0;
+    top: -5%;
+    padding-left:55%;
     font-size: 4vw;
+    font-family: 'Higuen Elegant Serif', serif !important;
+   
   }
-
+  
   .scrollbutton{
     position: absolute;
     scale: 0.6;
@@ -137,6 +139,7 @@
       text-align: center;
       font-size: 5vw;
       flex-direction: column;
+
     }
     .img{
       width: 100%;
