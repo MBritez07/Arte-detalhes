@@ -64,11 +64,15 @@ const [ref, inView] = useInView({
     <source src="https://res.cloudinary.com/dvt1b6wh8/video/upload/v1700576275/Untitled_design_zh7dsu.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-      </div>
+      </div> 
+      <div className={styles.h4} data-speed="0.2">
+          <h4>Welcome to</h4>
+        </div>
         <div className={styles.bannerTitle2} data-speed="0.2">
-        <h4 className={styles.h4}>
-          Arte & detalhes
-        </h4>
+          
+          <h2 className={styles.h2}>
+            Arte & Detalhes
+          </h2>
         </div>
 
         <div className={styles.scrollbutton} data-speed="0.2">
