@@ -64,14 +64,15 @@ const [ref, inView] = useInView({
     <source src="https://res.cloudinary.com/dvt1b6wh8/video/upload/v1700576275/Untitled_design_zh7dsu.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-      </div>
+      </div> 
+      <div className={styles.h4} data-speed="0.2"><h4>
+          Welcome to
+          </h4></div>
         <div className={styles.bannerTitle2} data-speed="0.2">
-        <h4 className={styles.h4}>
-          Arte & detalhes
-        </h4>
-        </div>
-
-        <div className={styles.scrollbutton} data-speed="0.2">
+          <h2 className={styles.h2}>
+            Arte & Detalhes
+            </h2></div>
+             <div className={styles.scrollbutton} data-speed="0.2">
         <p className={styles.button} onClick={() => scrollToSection('section1')}>
           <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 16 16">
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>

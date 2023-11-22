@@ -6,7 +6,7 @@ const Section1 = () => {
  
   return (
     <div>
-      ADD SECTIONS 
+     Explorar
     </div>
   );
 };

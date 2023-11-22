@@ -1,3 +1,4 @@
+
 .LandingPage {
   display: flex;
   flex-direction: column;
@@ -16,14 +17,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .video {
   width: 100vw; /* Cambia el ancho a 100vw (viewport width) */
   height: 100vh; /* Mantén la altura como 100vh (viewport height) */
   object-fit: cover; /* Esto asegurará que el video cubra toda la sección */
 }
-
-
 .imgcontainer {
   display: flex;
   position: absolute;
@@ -42,19 +42,25 @@
   width: 100%;
 }
 
-   .h4 {
-    font-family: 'Higuen Elegant Serif', serif !important;
-    font-size: 1.5em;
+   .h2 {
+    font-family: 'Pattaya', sans-serif;
+    font-weight:1.2em; 
+      color: #f6daa2f4;
+      text-align:left;
+  }
+  .h4 {
+    font-family: 'Pattaya', sans-serif; /* Cambiar a la fuente deseada */
+    font-size: 2em; /* Tamaño de fuente aún más pequeño */
     text-align: center;
-    color: #F6DAA2;
+    padding-left: 70%;
+    color: rgba(255, 255, 255, 0.753);
+        margin-top:-43%;
   }
   
-
 .img {
   width: 50%;
   height: 160%;
-    object-fit: cover; /* Esto asegurará que el video cubra toda la sección */
-  
+  object-fit: cover; /* Esto asegurará que el video cubra toda la sección */
 }
 
 .img2 {
@@ -75,8 +81,6 @@
     width: 100%;
     top: 0%;
     font-size: 4vw;
-    
-   
   }
   
    
@@ -84,13 +88,13 @@
     display: flex;
     position: absolute;
     bottom: 10%;
-    align-items: baseline;
-    justify-content: center;
+    justify-content:center;
     top: -5%;
-    padding-left:55%;
+    padding-left:50%;
     font-size: 4vw;
     font-family: 'Higuen Elegant Serif', serif !important;
-   
+    
+    
   }
   
   .scrollbutton{
