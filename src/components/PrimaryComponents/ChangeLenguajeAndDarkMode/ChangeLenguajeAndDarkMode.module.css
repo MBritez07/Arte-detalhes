@@ -1,11 +1,39 @@
 .container{
     display: flex;
-    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
     align-items: center;
-    justify-content: start;
-    gap:0.1em
+    justify-content:space-between;
+    background-color: rgba(0, 0, 0, 0.145);
+    gap:0.1em;
+    width: 100%;
 }
 
+.dk{
+    display: flex;
+}
+.productos{
+    gap: 10em;
+    display: flex;
+}
+.user{
+    margin-right: 3%;
+    display: flex;
+    gap:2em
+}
+
+.botonaccesorios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    transition: all 0.5s;
+}
+.botonaccesorios:hover{
+    color: #F6DAA2;
+}
 .option{
     width: 2em;
     height: 2em;

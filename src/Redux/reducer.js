@@ -13,7 +13,7 @@ let initialState = {
   login:false,
   error: "",
   message: "",
-  darkmode: false,
+  darkmode: true,
   lenguaje: "ES",
 };
 
