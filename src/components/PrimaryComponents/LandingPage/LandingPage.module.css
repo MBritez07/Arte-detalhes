@@ -36,7 +36,7 @@
 
   display: flex;
   position: absolute;
-  top:0%;
+  top: 20px;
   align-items:center;
   justify-content: center;
   width: 100%;
@@ -47,17 +47,20 @@
     font-weight:1.2em; 
       color: #f6daa2f4;
       text-align:left;
+      margin-top:22%;
+     
   }
   .h4 {
     font-family: 'Pattaya', sans-serif; /* Cambiar a la fuente deseada */
     font-size: 2em; /* Tamaño de fuente aún más pequeño */
-    text-align: center;
-    padding-left: 80%;
-    color: rgba(255, 255, 255, 0.753);
-        margin-top:-37%;
+    text-align:end;
+    margin-left: 25em;
+    
+    color: rgba(255, 255, 255, 0.966);
+        margin-top:-8%;
         z-index: 9999;
   }
-  
+ 
 .img {
   width: 50%;
   height: 160%;
@@ -90,11 +93,10 @@
     position: absolute;
     bottom: 10%;
     justify-content:center;
-    top: 2%;
+    top: 7%;
     padding-left:60%;
     font-size: 4vw;
     font-family: 'Higuen Elegant Serif', serif !important;
-    
     
   }
   
@@ -107,23 +109,15 @@
 
   .button{
     display: flex;
-    margin-top: -5%;
+    margin-top: -1%;
+    margin-left: 35%;
     position: relative;
     transition: all 0.5s;
     animation:jello-horizontal 2s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
 
-  .button:hover{
-    scale: 1.1;
-    color:bisque;
-  }
-
-
-
-  .bannerSubtitle {
-    font-size: 2em;
-   
-  }
   
+  .bannerSubtitle {
+    font-size: 2em;}
     .section {
         height: 200vh;
         padding: 100px 0;
@@ -153,4 +147,27 @@
     .option{
       font-size: 4vw;
     }
+  }
+  .explorar{
+    color: #f6daa2f4;
+    margin-top:-2em;
+    font-size: 3vw;
+    font-family: 'Pattaya', sans-serif; /* Agrega la fuente deseada aquí */
+     }
+    .explorar:hover{
+    scale: 1.1;
+    color:bisque;
+
+  }
+  .logo{
+    width: 80%;
+    max-height: 90%;
+    margin-left:-19em;
+  }
+  .welcome{
+
+    font-size: 3vw;
+    margin-top: -1.4em;
+    
+   
   }

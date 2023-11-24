@@ -6,9 +6,12 @@
     /* position: relative; */
   }
   .swiper-container {
-     position: relative; /* Add relative positioning to create a stacking context */
-     width: 80%;
+    position:absolute; /* Add relative positioning to create a stacking context */
+     width: 78em;
      transition: ease 2s;
+   right: 60%;
+   top: 0;
+   
   }
   
   .coursesPreviewContainer {

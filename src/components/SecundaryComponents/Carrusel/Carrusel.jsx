@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import ProductoPreview from "./ProductoPreview"
 // ChatGPT 💕
 //_________________________module_________________________
-function CoursesPreview ( ) {
+function Carrusel ( ) {
     const courses = [
         {
           id: 1,
@@ -34,7 +34,7 @@ function CoursesPreview ( ) {
     return (
             <div className = "coursesSwiperComponent"> 
                 <div className="navigation-container">
-                    <Swiper
+                    <Swiper 
                         // autoplay={{
                         //     delay: 2500,
                         //     pauseOnMouseEnter: true,
@@ -99,4 +99,4 @@ function CoursesPreview ( ) {
     )
 }
 
-export default CoursesPreview;
+export default Carrusel;

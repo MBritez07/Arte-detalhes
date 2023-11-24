@@ -1,6 +1,7 @@
 import React, { Suspense ,useEffect } from "react";
 import styles from "./LandingPage.module.css";
 import { useInView } from "react-intersection-observer";
+import Carrusel from "../../SecundaryComponents/Carrusel/Carrusel"
 // import {useSelector}from "react-redux"
 
 const LandingPage = () => {
@@ -61,19 +62,25 @@ const [ref, inView] = useInView({
     Your browser does not support the video tag.
   </video>
       </div> 
-      <div className={styles.h4} data-speed="0.2"><h4>
-          Welcome to
-          </h4></div>
+      <div className={styles.h4} data-speed="0.2">
+  <img className={styles.logo} src="https://res.cloudinary.com/dvt1b6wh8/image/upload/v1700679871/removal.ai__4399706b-d395-44cc-981a-b025cd7de875_OIG_zvktql.png" alt="Logo" />
+  <h4 className={styles.welcome}>Welcome to</h4>
+</div>
         <div className={styles.bannerTitle2} data-speed="0.2">
           <h2 className={styles.h2}>
             Arte & Detalhes
             </h2></div>
-             <div className={styles.scrollbutton} data-speed="0.2">
-        <p className={styles.button} onClick={() => scrollToSection('section1')}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
-            </svg></p>
-        </div>
+          <Carrusel></Carrusel>
+            <div className={styles.scrollbutton} data-speed="0.2">
+    <div className={styles.explorar}>
+      Explorar
+      <p className={styles.button} onClick={() => scrollToSection('section1')}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+        </svg>
+      </p>
+    </div>
+  </div>
       </section>
 
       {/* Sección 1 */}
