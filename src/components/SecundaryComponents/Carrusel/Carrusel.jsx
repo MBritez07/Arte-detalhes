@@ -35,15 +35,15 @@ function Carrusel ( ) {
             <div className = "coursesSwiperComponent"> 
                 <div className="navigation-container">
                     <Swiper 
-                        // autoplay={{
-                        //     delay: 2500,
-                        //     pauseOnMouseEnter: true,
-                        //     disableOnInteraction: false,
-                        // }}                 
+                        autoplay={{
+                            delay: 4500,
+                            pauseOnMouseEnter: true,
+                            disableOnInteraction: false,
+                        }}                 
                         enabled={true}
                         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
                         effect={"coverflow"}
-                        spaceBetween={100}
+                        spaceBetween={300}
                         grabCursor={true}
                         centeredSlides={true}
                         loop={true}

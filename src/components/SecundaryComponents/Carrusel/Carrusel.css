@@ -1,15 +1,14 @@
 .coursesSwiperComponent {
-    width: 40%;
-    transition: ease 2s;
+    width: 37em;
+    transition: ease 1s;
     /* margin: 0 4rem; */
     /* bullets: */
     /* position: relative; */
   }
   .swiper-container {
     position:absolute; /* Add relative positioning to create a stacking context */
-     width: 78em;
      transition: ease 2s;
-   right: 60%;
+   right: 50%;
    top: 0;
    
   }
