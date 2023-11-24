@@ -63,7 +63,7 @@ const [ref, inView] = useInView({
   </video>
       </div> 
       <div className={styles.h4} data-speed="0.2">
-  <img className={styles.logo} src="https://res.cloudinary.com/dvt1b6wh8/image/upload/v1700679871/removal.ai__4399706b-d395-44cc-981a-b025cd7de875_OIG_zvktql.png" alt="Logo" />
+  <img className={styles.logo} src="https://res.cloudinary.com/dvt1b6wh8/image/upload/v1700847400/removal.ai__e3136db4-33bc-47e3-bc77-e27aca07cc4e-oig_tv9rmm.png" alt="Logo" />
   <h4 className={styles.welcome}>Welcome to</h4>
 </div>
         <div className={styles.bannerTitle2} data-speed="0.2">
